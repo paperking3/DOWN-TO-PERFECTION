@@ -1,0 +1,17 @@
+{
+	id: "c0a31956-e6ba-3e6d-995e-dac9ff4c4630"
+	type: "player"
+	player_name: "Paperkin03"
+	ranks: {
+		c0a31956-e6ba-3e6d-995e-dac9ff4c4630: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Paperkin03"
+		"ftbteams:description": ""
+		"ftbteams:color": "#B4FF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

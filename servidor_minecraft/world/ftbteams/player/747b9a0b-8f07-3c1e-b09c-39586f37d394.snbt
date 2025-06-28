@@ -1,0 +1,17 @@
+{
+	id: "747b9a0b-8f07-3c1e-b09c-39586f37d394"
+	type: "player"
+	player_name: "IxionDT"
+	ranks: {
+		747b9a0b-8f07-3c1e-b09c-39586f37d394: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "IxionDT"
+		"ftbteams:description": ""
+		"ftbteams:color": "#DB59FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

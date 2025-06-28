@@ -1,0 +1,17 @@
+{
+	id: "7d167898-ad94-345f-8824-426e7e77d173"
+	type: "player"
+	player_name: "Willy"
+	ranks: {
+		7d167898-ad94-345f-8824-426e7e77d173: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Willy"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59B6FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

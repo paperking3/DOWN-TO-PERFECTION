@@ -86,7 +86,7 @@
       "required_game_stage": "expert"
     },
     "creeper_explode_behind_wall": {
-      "is_enabled": true,
+      "is_enabled": false,
       "required_game_stage": "expert",
       "chance": 1.0,
       "is_scaled_by_crd": false
@@ -351,15 +351,22 @@
       "is_enabled": true,
       "health_bonus": {
         "__default": 0.0,
-        "expert": 0.15,
-        "master": 0.3
+        "expert": 0.5,
+        "master": 1.5
       },
       "damage_bonus": {
         "__default": 0.0,
-        "expert": 0.1,
-        "master": 0.2
+        "expert": 0.5,
+        "master": 1.5
       },
-      "excluded_mobs": []
+      "excluded_mobs": [
+        "cataclysm:netherite_monstrosity",
+        "cataclysm:ancient_remnant",
+        "cataclysm:the_harbinger",
+        "cataclysm:ender_guardian",
+        "cataclysm:ignis",
+        "minecraft:warden"
+      ]
     },
     "pillager_with_fireworks": {
       "is_enabled": true,
@@ -375,7 +382,15 @@
         "__default": [
           "majruszsdifficulty:illusioner",
           "majruszsdifficulty:tank",
-          "majruszsdifficulty:cerberus"
+          "majruszsdifficulty:cerberus",
+          "born_in_chaos_v1:skeleton_thrasher",
+          "born_in_chaos_v1:fallen_chaos_knight",
+          "born_in_chaos_v1:dire_hound_leader",
+          "born_in_chaos_v1:dread_hound",
+          "born_in_chaos_v1:missioner",
+          "born_in_chaos_v1:nightmare_stalker",
+          "born_in_chaos_v1:glutton_fish",
+          "born_in_chaos_v1:corpse_fish"
         ],
         "expert": [
           "majruszsdifficulty:cerberus"
@@ -637,9 +652,9 @@
           }
         ],
         "boss": {
-          "type": "majruszsdifficulty:giant",
+          "type": "majruszsdifficulty:cerberus",
           "equipment": "majruszsdifficulty:undead_army/wave_6_mob",
-          "count": 1
+          "count": 2
         },
         "game_stage": "master",
         "exp": 48
@@ -703,19 +718,14 @@
       "normal_effects": [
         {
           "id": "majruszsdifficulty:glass_regeneration",
-          "amplifier": 0,
+          "amplifier": 1,
           "duration": 20.0
         }
       ],
       "golden_effects": [
         {
-          "id": "majruszsdifficulty:glass_regeneration",
+          "id": "minecraft:regeneration",
           "amplifier": 1,
-          "duration": 20.0
-        },
-        {
-          "id": "majruszsdifficulty:bleeding_immunity",
-          "amplifier": 0,
           "duration": 90.0
         }
       ]
@@ -746,7 +756,7 @@
     "chance_multiplier_base": 0.09,
     "chance_multiplier_per_armor": 0.03,
     "chance_multiplier_per_armor_toughness": 0.03,
-    "is_enabled": true,
+    "is_enabled": false,
     "can_be_cured_with_golden_apples": true,
     "is_applicable_to_animals": true,
     "is_applicable_to_pillagers": true,

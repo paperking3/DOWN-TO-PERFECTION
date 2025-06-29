@@ -68,7 +68,7 @@
 
 	[paraglider.underwater]
 		#Range: > -2147483648
-		staminaDelta = 3
+		staminaDelta = 6
 		#Range: > 0
 		recoveryDelay = 0
 

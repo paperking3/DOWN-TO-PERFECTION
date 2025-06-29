@@ -36,7 +36,7 @@
 	#off hand
 	off_hand = false
 	#quiver
-	quiver = false
+	quiver = true
 	#Body part attachment to a slot
 	attachment = "1-body,2-body,3-rleg,4-lleg,5-rleg,6-lleg,7-body,8-body,9-rleg,shield-body,banner-head,offhand-lleg,quiver-body"
 	#Which active slot and equipment should move the item model away

@@ -51,7 +51,7 @@
       "weapon_attributes": "bettercombat:fist"
     },
     {
-      "item_id_regex": "trident|javelin|impaled",
+      "item_id_regex": "trident|impaled",
       "weapon_attributes": "bettercombat:trident"
     },
     {

@@ -18,8 +18,8 @@ See https://minecraft.wiki/w/Structure_set
 		"salt": 51363271
 	},
 	"taverns": {
-		"spacing": 36,
-		"separation": 18,
+		"spacing": 32,
+		"separation": 16,
 		"frequency": 0.8,
 		"salt": 15731481
 	},
@@ -48,8 +48,8 @@ See https://minecraft.wiki/w/Structure_set
 		"salt": 17906333
 	},
 	"supply_caches": {
-		"spacing": 32,
-		"separation": 20,
+		"spacing": 18,
+		"separation": 12,
 		"frequency": 0.75,
 		"salt": 12413523
 	},
@@ -73,7 +73,7 @@ See https://minecraft.wiki/w/Structure_set
 	},
 	"farmsteads": {
 		"spacing": 38,
-		"separation": 28,
+		"separation": 24,
 		"frequency": 0.8,
 		"salt": 70128199
 	},

@@ -8,7 +8,7 @@
 			"mobEffectId": "minecraft:slowness",
 			"mobEffectDuration": 100,
 			"mobEffectAmplifier": 2,
-			"damage": 9.0
+			"damage": 14.0
 		},
 		"comet": {
 			"explosionStrength": 4.0

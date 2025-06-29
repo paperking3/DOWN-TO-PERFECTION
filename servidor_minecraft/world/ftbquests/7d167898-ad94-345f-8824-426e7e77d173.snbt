@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "7d167898ad94345f8824426e7e77d173"
+	name: "Willy#7d167898"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

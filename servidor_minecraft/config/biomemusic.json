@@ -16,7 +16,7 @@
     "smartMusic": true
   },
   "musicConditions": {
-    "desc:": "Sets the condition under which music from their respective categories is allowed to play. Required conditions need to be all met, a single matched disallowed conditions prevents it. Possible conditions are: [NETHER, CAVE, END, OVERWORLD, NIGHT, WATER]",
+    "desc:": "Sets the condition under which music from their respective categories is allowed to play. Required conditions need to be all met, a single matched disallowed conditions prevents it. Possible conditions are: [NIGHT, CAVE, NETHER, WATER, END, OVERWORLD]",
     "Biome": {
       "requires": "[]",
       "disallowed": "[]"
@@ -27,15 +27,15 @@
     },
     "Night": {
       "requires": "[NIGHT]",
-      "disallowed": "[END, WATER, CAVE, NETHER]"
+      "disallowed": "[WATER, CAVE, NETHER, END]"
     },
     "Water": {
       "requires": "[WATER]",
-      "disallowed": "[END, NETHER]"
+      "disallowed": "[NETHER, END]"
     },
     "Game": {
       "requires": "[]",
-      "disallowed": "[NETHER, WATER, END]"
+      "disallowed": "[WATER, NETHER, END]"
     },
     "End": {
       "requires": "[END]",

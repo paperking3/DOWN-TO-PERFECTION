@@ -1,7 +1,6 @@
 {
   "Version": 210,
   "Gore": true,
-  "onlyknifedrops": false,
   "CowLeatherDropQty": 1,
   "CowProcess1DropQty": 1,
   "CowProcess2DropQty": 1,
@@ -42,5 +41,6 @@
   "HoglinProcess3DropQty": 1,
   "HoglinhamDropQty": 1,
   "HoglinporkribsDropQty": 1,
-  "HoglinporkloinDropQty": 1
+  "HoglinporkloinDropQty": 1,
+  "onlyknifedrops": false
 }

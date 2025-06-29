@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "c0a31956-e6ba-3e6d-995e-dac9ff4c4630",
+    "name": "Paperkin03",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
